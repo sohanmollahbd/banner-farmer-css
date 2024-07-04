@@ -74,9 +74,9 @@
    justify-content: center;
    align-items: center;
    margin: o auto;
+   height: 90vh;
    width: 100%;
    background-color: rgb(0, 0, 0);
-   height: 500px;
 }
 
 .another-linear-gradient-btn button {
@@ -93,5 +93,5 @@
 .another-linear-gradient-btn button:hover {
    background-size: 100%;
    color: white;
-   transition: all 1s ease-in;
+   transition: all .5s ease-in;
 }
