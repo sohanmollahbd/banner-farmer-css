@@ -52,7 +52,7 @@
 
 .content button {
    background-color: transparent;
-   border: 3px solid white;
+   border: 3px solid rgb(255, 0, 0);
    padding: 15px 32px;
    color: rgb(235, 232, 232);
    cursor: pointer;
@@ -66,5 +66,32 @@
 
 .content button:hover {
    background-size: 100%;
-   color: black;
+   color: #000000;
+}
+
+.another-linear-gradient-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: o auto;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   height: 500px;
+}
+
+.another-linear-gradient-btn button {
+   background-color: transparent;
+   background-image: linear-gradient(to left, red , rgb(200, 62, 20));
+   padding: 20px 30px;
+   border: 4px solid red;
+   background-size: 0%;
+   font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+}
+
+.another-linear-gradient-btn button:hover {
+   background-size: 100%;
+   color: white;
+   transition: all 1s ease-in;
 }
